@@ -6,9 +6,13 @@ import { graphql, QueryRenderer } from 'react-relay'
 
 import environment from '../common/createRelayEnvironment';
 //import PatientList from '../components/PatientList'
+import { type PatientScreen_Query } from './__generated__/PatientScreen_Query.graphql'
 
+type Props = {
+  viewer: PatientScreen_Query,
+};
 
-class PatientScreen extends Component {
+class PatientScreen extends Component<void, Props, any> {
   static navigationOptions = ({navigation}) => ({
       title: 'Review Jobs',
       headerRight:  (<Button
@@ -25,7 +29,7 @@ class PatientScreen extends Component {
   
 
  render() {
-  const item = this.props.item;
+  const { allPatients } = this.props.viewer;
   return (
      <View>     
        <QueryRenderer
