@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-relay
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\NoshTeam\bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\System32;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Ruby22\bin;C:\Program Files (x86)\Elm Platform\0.17\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\NoshTeam\AppData\Local\atom\bin;C:\Program Files (x86)\Google\google_appengine;C:\Program Files\MongoDB\Server\3.2\bin;C:\Spark\bin;C:\go_appengine;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\NoshTeam\AppData\Local\Microsoft\WindowsApps;C:\Users\NoshTeam\go\bin;C:\Program Files\Mercurial;C:\Users\NoshTeam\AppData\Local\Android\sdk\platform-tools;C:\Users\NoshTeam\AppData\Local\Android\sdk\tools;C:\Users\NoshTeam\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;C:\Users\NoshTeam\AppData\Local\Yarn\bin
+
+Yarn version: 
+  0.24.6
+
+Node version: 
+  7.8.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "ncp",
+    "version": "0.0.0",
+    "description": "Hello Expo!",
+    "author": null,
+    "private": true,
+    "main": "main.js",
+    "dependencies": {
+      "expo": "17.0.0",
+      "native-base": "^2.1.4",
+      "react": "16.0.0-alpha.6",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz",
+      "react-navigation": "1.0.0-beta.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\NoshTeam\Desktop\development\ncp\node_modules\@expo\vector-icons\node_modules\.bin'

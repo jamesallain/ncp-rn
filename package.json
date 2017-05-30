@@ -1,0 +1,24 @@
+{
+  "name": "ncp",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null,
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "cors": "^2.8.3",
+    "expo": "17.0.0",
+    "native-base": "^2.1.4",
+    "react": "16.0.0-alpha.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz",
+    "react-navigation": "1.0.0-beta.10",
+    "react-relay": "^1.0.0-rc4"
+  },
+  "devDependencies": {
+    "babel-plugin-relay": "^1.0.1",
+    "relay-compiler": "^1.0.0"
+  },
+  "scripts": {
+    "relay": "relay-compiler --src ./src/screens --schema ./schema.graphql"
+  }
+}
